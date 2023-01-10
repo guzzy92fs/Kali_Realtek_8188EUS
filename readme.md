@@ -2,7 +2,7 @@
 2. apt update 
 3. apt upgrade 
 4. apt  install dkms
-5. git clone https://github.com/aircrack-ng/rtl818... 
+5. git clone https://github.com/guzzy92fs/rtl8188eus.git
 6. cd rtl8188eus 
 7. make && sudo make install 
 8. echo 'blacklist r8188eu'|sudo tee -a '/etc/modprobe.d/realtek.conf' 9. reboot 
